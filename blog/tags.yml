@@ -1,7 +1,7 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+crafteria:
+  label: CRAFTERIA
+  permalink: /project04
+  description: Project 04
 
 hello:
   label: Hello

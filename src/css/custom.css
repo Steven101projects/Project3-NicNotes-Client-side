@@ -1,34 +1,31 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/** * Any CSS included here will be global. The classic template 
+* bundles Infima by default. Infima is a CSS framework designed to 
+* work well for content-centric websites. */
 
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #325ec8;
+  --ifm-color-primary-dark: #2c53b4;
+  --ifm-color-primary-darker: #284ca6;
+  --ifm-color-primary-darkest: #203f8a;
+  --ifm-color-primary-light: #3a6ef0;
+  --ifm-color-primary-lighter: #4a7ef5;
+  --ifm-color-primary-lightest: #5c8eff;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #5c8eff;
+  --ifm-color-primary-dark: #4a7ef5;
+  --ifm-color-primary-darker: #3a6ef0;
+  --ifm-color-primary-darkest: #2e60d0;
+  --ifm-color-primary-light: #7fa4ff;
+  --ifm-color-primary-lighter: #9bb8ff;
+  --ifm-color-primary-lightest: #b9ceff;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
 }
+
 .mindkeys-text {
-  font-size: 1.2rem;       /* ~19px */
+  font-size: 1.2rem;
   line-height: 1.6;
 }
