@@ -4,14 +4,10 @@
  */
 
 .heroBanner {
-  padding: 1rem 0;
+  padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-}
-
-.heroImg {
-  margin: 0;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,8 +16,29 @@
   }
 }
 
+.heroImg img {
+  transition: width 0.3s ease, transform 0.3s ease;  /* Smooth transition for width and transform */
+}
+
+.heroImg {
+  text-align: center;
+  position: relative;
+}
+
+.heroImg img {
+  width: 420px;  /* Initial size */
+  transition: width 0.3s ease, transform 0.3s ease;  /* Smooth resizing transition */
+}
+
+.sticky {
+  position: sticky;
+  top: 0;  /* Keeps the image stuck to the top when scrolling */
+  z-index: 10;  /* Ensure it's above other content */
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+

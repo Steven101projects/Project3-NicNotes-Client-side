@@ -7,6 +7,18 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
+window.addEventListener('scroll', function() {
+  const images = document.querySelectorAll('.heroImg img');
+  const scrollPosition = window.scrollY;  // Get scroll position
+
+  // Determine the scale based on scroll position (you can adjust the multiplier for desired effect)
+  const scale = Math.max(0.5, 1 - scrollPosition / 1000);  // Scale between 1 and 0.5
+
+  // Apply scaling to each image
+  images.forEach(img => {
+    img.style.transform = `scale(${scale})`;  // Apply scaling effect
+  });
+});
 
 
 function HomepageHeader() {
@@ -14,8 +26,8 @@ function HomepageHeader() {
   return (
     <>
         <p align="center" class="heroImg">
-        <img class="light-img" src="/img/nnFrontLogoWhite.png" width="420" />
-        <img class="dark-img" src="/img/nnFrontLogoBL.png"  width="420" />
+        <img class="light-img" src="/img/nnLogoWH.png" width="420" />
+        <img class="dark-img" src="/img/nnLogoBL.png"  width="420" />
         </p>
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
