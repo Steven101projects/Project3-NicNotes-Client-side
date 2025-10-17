@@ -29,3 +29,8 @@
   font-size: 1.2rem;
   line-height: 1.6;
 }
+
+
+  [data-theme='dark'] .light-img { display: none; }
+  [data-theme='dark'] .dark-img { display: inline; }
+  [data-theme='light'] .dark-img { display: none; }

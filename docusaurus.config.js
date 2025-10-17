@@ -82,6 +82,11 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
+        frontLogo: {
+          alt: "Front Logo",
+          src: 'img/nnFrontLogoWhite.png',
+          srcDark: 'img/nnFrontLogoBL.png'
+        },
         items: [
           {
             type: 'docSidebar',
