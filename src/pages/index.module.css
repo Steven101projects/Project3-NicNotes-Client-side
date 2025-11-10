@@ -46,6 +46,11 @@
   padding: 4rem 1rem;
   color: #284ca6;
 }
+/* 
+html[data-theme='dark'] :global(.hero__title),
+html[data-theme='dark'] :global(.hero__subtitle) {
+  color: #284ca6;
+} */
 
 .heroContainer {
   display: flex;
@@ -61,19 +66,16 @@
   color: #fff;
 }
 
-.hero__title {
+:global(.hero__title) {
   font-size: 4rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-  color: var(--ifm-color-primary-darker);
+  margin-bottom: 0.2rem;
 }
 
-.hero__subtitle {
-  font-size: 1.25rem;
-  opacity: 0.9;
+:global(.hero__subtitle) {
+  font-size: 2rem;
   margin-bottom: 2rem;
+  opacity: 0.9;
   line-height: 1.6;
-  max-width: 500px;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -88,6 +90,11 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
   text-decoration: none;
   display: inline-block;
+}
+
+html[data-theme='dark'] .heroButton {
+    background-color: #284ca6;
+    color: white;
 }
 
 .heroButton:hover {
