@@ -5,6 +5,7 @@
 
 .heroBanner {
   padding: 4rem 0;
+  padding-bottom: 3rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -41,4 +42,94 @@
   align-items: center;
   justify-content: center;
 }
+.heroBanner {
+  padding: 4rem 1rem;
+  color: #284ca6;
+}
 
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.heroText {
+  flex: 1;
+  min-width: 280px;
+  color: #fff;
+}
+
+.hero__title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-primary-darker);
+}
+
+.hero__subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  max-width: 500px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.heroButton {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.9rem 2.2rem;
+  box-shadow: 0 4px 12px rgba(40, 76, 166, 0.25);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.heroButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(40, 76, 166, 0.35);
+}
+
+.heroImage {
+  flex: 1;
+  text-align: center;
+}
+
+.heroImage img {
+  width: 420px;
+  transition: transform 0.3s ease;
+    border-radius: 20%;
+}
+
+.heroImage img:hover {
+  transform: scale(1.05);
+}
+
+/* Light/Dark logo switch */
+html[data-theme='dark'] .light-img {
+  display: none;
+}
+
+html[data-theme='dark'] .dark-img {
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .heroContainer {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .heroText {
+    align-items: center;
+  }
+
+  .heroImage img {
+    width: 300px;
+  }
+}
