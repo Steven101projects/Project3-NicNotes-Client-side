@@ -2,11 +2,16 @@
 sidebar_position: 1
 ---
 
-# Introduction;
+# Introduction
 
-Hi! If you are here, you are probably wondering **What is the purpose of this?**
+Hi! Welcome to **NicNotes.**
 
-This is **NicNotes** by Nico Castro, a 19-year old Web Developer, and a recent Software Engineering Technician Student. I created this website to put all my notes i have written all about my past program. All I think about when I started studying this field is to put all my thoughts with it, so not only will I have tutorials, or documentation of what i have learned about Software Engineeering, I will also put my own thoughts and understanding to it by explaining it all a little bit differently.
+If you are here, you are probably curious about what this site is meant to do. The idea is simple. **I wanted a place where I could gather everything I learned in my program and turn it into something useful for myself and anyone else who is studying the same subjects.**
 
+My name is **Nico Castro**. I am a nineteen year old web developer and a recent Software Engineering Technician student. While I was studying, I realized I kept writing notes in many different places. I wanted one place that felt like a personal hub for all my lessons, my reflections, and my own explanations. That is how NicNotes started.
 
-**Anyways, if you find this interesting, go and start your journey now!**
+:::tip ?
+ Here you will find tutorials, guides, documentation, and my own way of explaining the concepts that helped me grow as a developer. I try to keep things clear, direct, and practical. If you enjoy learning through someone else's point of view, you might find this helpful.
+:::
+
+If this sounds interesting, feel free to explore and start your journey now.

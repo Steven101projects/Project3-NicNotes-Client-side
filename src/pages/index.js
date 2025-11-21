@@ -9,19 +9,19 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx('', styles.heroBanner)}>
       <div className={clsx('container', styles.heroContainer)}>
         {/* Left side — logo */}
         <div className={styles.heroImage}>
           <img
             className="light-img"
-            src="/img/nnLogoWH.png"
+            src="/img/nnFrontLogoWH.png"
             width="420"
             alt="NicNotes light logo"
           />
           <img
             className="dark-img"
-            src="/img/nnLogoBL.png"
+            src="/img/nnFrontLogoBL.png"
             width="420"
             alt="NicNotes dark logo"
           />
@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <Layout
       title="Welcome!"
-      description="NicNotes — a personal hub for development notes and projects."
+      description="NicNotes — a personal hub for programming notes and projects."
     >
       <HomepageHeader />
       <main></main>

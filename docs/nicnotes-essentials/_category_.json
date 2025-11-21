@@ -2,6 +2,7 @@
   "label": "NicNotes: ESSENTIALS",
   "position": 1,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "The Essentials of Software Engineering."
   }
 }

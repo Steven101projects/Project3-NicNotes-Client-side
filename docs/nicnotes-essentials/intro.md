@@ -2,46 +2,30 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Intro to the World of Software Engineering
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Hello, World.
 
-## Getting Started
+## A Simple Beginning
 
-Get started by **creating a new site**.
+Did you know? Life began when someone decided to create a computer-based information system. Yes, at least the life that we are having today. Nowadays, these systems have become so essential to our lives that we’ve even designed them to fit inside our pockets.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+This computer-based info system consists of two or more elements, but as an introduction, there are two elements that are very important to know about.
 
-### What you'll need
+## Hardware
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Hardware is the physical and tangible part of a computer.  
+It processes data by following instructions, stores information, and sends or receives data through input and output devices.
 
-## Generate a new site
+## Software
 
-Generate a new Docusaurus site using the **classic template**.
+Software is the non physical part of a computer.  
+It presents data to the user, manages how information is accessed, and controls how the machine behaves.
 
-The classic template will automatically be added to your project after you run the command:
+## Working Together
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+Hardware and software support each other. They determine what a computer does, how it operates, where data moves, and when tasks happen. These two elements form the foundation of Software Engineering.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+If you want to explore this field further, you first need to understand the nature of these systems and how each part contributes to the whole.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Your journey begins here.
