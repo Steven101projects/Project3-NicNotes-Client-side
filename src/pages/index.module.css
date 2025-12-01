@@ -145,3 +145,43 @@ html[data-theme='dark'] .dark-img {
     width: 300px;
   }
 }
+
+.aboutSection {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.aboutContent {
+  max-width: 700px;
+  text-align: center;
+  color: #284ca6;
+}
+
+.aboutContent h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #284ca6;
+}
+
+.aboutContent p {
+  font-size: 1.15rem;
+  margin-bottom: 25px;
+  color: #284ca6;
+}
+
+.githubLink {
+  display: inline-block;
+  font-size: 1.15rem;
+  padding: 12px 24px;
+  background: #284ca6;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.githubLink:hover {
+  opacity: 0.85;
+}

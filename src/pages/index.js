@@ -39,6 +39,7 @@ function HomepageHeader() {
             </Link>
           </div>
         </div>
+        
       </div>
     </header>
   );
@@ -53,7 +54,25 @@ export default function Home() {
       description="NicNotes — a personal hub for programming notes and projects."
     >
       <HomepageHeader />
-      <main></main>
+      <main>
+          <div className={styles.aboutSection}>
+    <div className={styles.aboutContent}>
+      <h2>About the Creator</h2>
+      <p>
+        This is created by Nico Steven Castro. To know more about Docusaurus and to see my git project for this:
+      </p>
+
+      <a
+        className={styles.githubLink}
+        href="https://github.com/Steven101projects/Project3-NicNotes-Client-side"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Visit my GitHub
+      </a>
+    </div>
+  </div>
+      </main>
     </Layout>
   );
 }
